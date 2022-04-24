@@ -1,0 +1,6 @@
+n = int(input())
+score = (int(x) for x in input().split())
+score = list(set(list(score)))
+score = sorted(score)
+len = len(score)
+print(score[len-2])
